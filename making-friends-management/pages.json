@@ -1,0 +1,148 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录页",
+				"enablePullDownRefresh" : false,
+				"leftWindow": false,
+				"topWindow": false
+			}
+		},
+		{
+			"path" : "pages/adsense/adsense",
+			"style" : 
+			{
+				"navigationBarTitleText" : "广告位管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/article/article",
+			"style" : 
+			{
+				"navigationBarTitleText" : "帖子管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/category/category",
+			"style" : 
+			{
+				"navigationBarTitleText" : "分类管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/topic/topic",
+			"style" : 
+			{
+				"navigationBarTitleText" : "话题管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/feedback/feedback",
+			"style" : 
+			{
+				"navigationBarTitleText" : "反馈管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/report/report",
+			"style" : 
+			{
+				"navigationBarTitleText" : "举报管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/user/user",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/upgradation/upgradation",
+			"style" : 
+			{
+				"navigationBarTitleText" : "升级中心",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/imconversation/imconversation",
+			"style" : 
+			{
+				"navigationBarTitleText" : "聊天会话管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/immessage/immessage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "聊天信息管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/user_action_log/user_action_log",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户操作日志"
+			}
+		},
+		{
+			"path" : "pages/ip_image/ip_image",
+			"style" : 
+			{
+				"navigationBarTitleText" : "图片审核"
+			}
+		},
+		{
+			"path" : "pages/role/role",
+			"style" : 
+			{
+				"navigationBarTitleText" : "角色管理"
+			}
+		},
+		{
+			"path" : "pages/rule/rule",
+			"style" : 
+			{
+				"navigationBarTitleText" : "权限菜单管理"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "后台管理",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff",
+		"navigationStyle": "custom"
+	},
+	"topWindow": {
+		"path": "layout/top.vue",
+		"style": {
+			"height": "44px"
+		}
+	},
+	"leftWindow": {
+		"path": "layout/left.vue",
+		"style": {
+			"width": "200px"
+		}
+	},
+	"uniIdRouter": {}
+}

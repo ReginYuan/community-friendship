@@ -1,9 +1,12 @@
 import "./chunk-MNTBHR2J.js";
 
-// ../../../../课程/uni-appx 实战社区交友类app和小程序/备课源码/【后台管理】uniappx社区交友/node_modules/element-plus/dist/locale/zh-cn.mjs
+// ../../../../Code/community-friendship/making-friends-management/node_modules/element-plus/dist/locale/zh-cn.mjs
 var zhCn = {
   name: "zh-cn",
   el: {
+    breadcrumb: {
+      label: "面包屑"
+    },
     colorpicker: {
       confirm: "确定",
       clear: "清空"
@@ -130,6 +133,11 @@ var zhCn = {
     popconfirm: {
       confirmButtonText: "确定",
       cancelButtonText: "取消"
+    },
+    carousel: {
+      leftArrow: "上一张幻灯片",
+      rightArrow: "下一张幻灯片",
+      indicator: "幻灯片切换至索引 {index}"
     }
   }
 };
@@ -139,6 +147,6 @@ export {
 /*! Bundled license information:
 
 element-plus/dist/locale/zh-cn.mjs:
-  (*! Element Plus v2.5.3 *)
+  (*! Element Plus v2.7.5 *)
 */
 //# sourceMappingURL=element-plus_dist_locale_zh-cn__mjs.js.map

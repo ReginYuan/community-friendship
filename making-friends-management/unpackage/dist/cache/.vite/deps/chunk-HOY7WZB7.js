@@ -1,4 +1,4 @@
-// ../../../../课程/uni-appx 实战社区交友类app和小程序/备课源码/【后台管理】uniappx社区交友/node_modules/@element-plus/icons-vue/dist/index.js
+// ../../../../Code/community-friendship/making-friends-management/node_modules/@element-plus/icons-vue/dist/index.js
 import { defineComponent as _defineComponent } from "vue";
 import { createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from "vue";
 import { defineComponent as _defineComponent2 } from "vue";
@@ -6058,4 +6058,4 @@ export {
 @element-plus/icons-vue/dist/index.js:
   (*! Element Plus Icons Vue v2.3.1 *)
 */
-//# sourceMappingURL=chunk-VCAAZERR.js.map
+//# sourceMappingURL=chunk-HOY7WZB7.js.map

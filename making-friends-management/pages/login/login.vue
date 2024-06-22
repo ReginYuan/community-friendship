@@ -1,7 +1,7 @@
 <template>
 	<view class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-	  <view class="mx-auto max-w-lg">
-	    <h1 class="text-center text-2xl font-bold sm:text-3xl">济南程序员社区</h1>
+	  <view class="mx-auto max-w-lg items-center justify-center">
+	    <h1 class="text-center text-2xl font-bold sm:text-3xl">济南程序员社区后台</h1>
 	
 <!-- 	    <p class="mx-auto mt-4 max-w-md text-center text-gray-500">
 	      此站点是“济南程序员社区交友课程” 的演示后台管理

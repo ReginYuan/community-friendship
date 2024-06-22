@@ -1,0 +1,53 @@
+{
+  "name": "sq",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.13",
+    "await-stream-ready": "^1.0.1",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.11.10",
+    "egg": "^3.17.5",
+    "egg-cors": "^3.0.0",
+    "egg-jwt": "^3.1.7",
+    "egg-redis": "^2.6.0",
+    "egg-scripts": "2",
+    "egg-sequelize": "^6.0.0",
+    "egg-valparams": "^1.4.5",
+    "egg-view-nunjucks": "^2.3.0",
+    "mysql2": "^3.9.4",
+    "stream-wormhole": "^2.0.1",
+    "uuid": "^9.0.1",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "egg-bin": "6",
+    "egg-mock": "5",
+    "eslint": "8",
+    "eslint-config-egg": "13",
+    "sequelize-cli": "^6.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-sq",
+    "stop": "egg-scripts stop --title=egg-server-sq",
+    "dev": "egg-bin dev",
+    "test": "npm run lint -- --fix && npm run test:local",
+    "test:local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}

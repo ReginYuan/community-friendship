@@ -1,1 +1,2 @@
 /making-friends-management/node_modules //忽略社区交友后台管理依赖
+/egg-sq2/node_modules
